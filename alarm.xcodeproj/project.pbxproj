@@ -14,6 +14,8 @@
 		044CAA7D2036108A000AB63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044CAA7C2036108A000AB63F /* Assets.xcassets */; };
 		044CAA802036108A000AB63F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CAA7E2036108A000AB63F /* LaunchScreen.storyboard */; };
 		044CAA88203614F5000AB63F /* SetAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CAA87203614F5000AB63F /* SetAlarmViewController.swift */; };
+		04A3227E203C91FE0011BAE1 /* AlarmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3227D203C91FE0011BAE1 /* AlarmsTableViewController.swift */; };
+		04A32280203C920E0011BAE1 /* AlarmsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3227F203C920E0011BAE1 /* AlarmsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		044CAA7F2036108A000AB63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044CAA812036108A000AB63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044CAA87203614F5000AB63F /* SetAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAlarmViewController.swift; sourceTree = "<group>"; };
+		04A3227D203C91FE0011BAE1 /* AlarmsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsTableViewController.swift; sourceTree = "<group>"; };
+		04A3227F203C920E0011BAE1 /* AlarmsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				044CAA7E2036108A000AB63F /* LaunchScreen.storyboard */,
 				044CAA87203614F5000AB63F /* SetAlarmViewController.swift */,
 				044CAA812036108A000AB63F /* Info.plist */,
+				04A3227D203C91FE0011BAE1 /* AlarmsTableViewController.swift */,
+				04A3227F203C920E0011BAE1 /* AlarmsTableViewCell.swift */,
 			);
 			path = alarm;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				044CAA88203614F5000AB63F /* SetAlarmViewController.swift in Sources */,
+				04A3227E203C91FE0011BAE1 /* AlarmsTableViewController.swift in Sources */,
+				04A32280203C920E0011BAE1 /* AlarmsTableViewCell.swift in Sources */,
 				044CAA782036108A000AB63F /* ViewController.swift in Sources */,
 				044CAA742036108A000AB63F /* AppDelegate.swift in Sources */,
 			);
